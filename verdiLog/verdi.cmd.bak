@@ -1,0 +1,112 @@
+debImport "-f" "filelist"
+debLoadSimResult /home/edauser/Documents/mycode/32_bit_divider/test.vcd.fsdb
+wvCreateWindow
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiWindowResize -win Verdi_1 "0" "0" "1280" "692"
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+verdiWindowResize -win Verdi_1 "0" "0" "1280" "692"
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvGetSignalOpen -win $_nWave2
+wvGetSignalSetScope -win $_nWave2 "/tb"
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb/dividend\[31:0\]} \
+{/tb/divider\[31:0\]} \
+{/tb/error} \
+{/tb/quotient\[31:0\]} \
+{/tb/remainder\[31:0\]} \
+{/tb/s} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 5 6 )} 
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvAddSignal -win $_nWave2 -clear
+wvAddSignal -win $_nWave2 -group {"G1" \
+{/tb/dividend\[31:0\]} \
+{/tb/divider\[31:0\]} \
+{/tb/error} \
+{/tb/quotient\[31:0\]} \
+{/tb/remainder\[31:0\]} \
+{/tb/s} \
+}
+wvAddSignal -win $_nWave2 -group {"G2" \
+}
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 5 6 )} 
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvGetSignalClose -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 5 6 )} 
+wvSetRadix -win $_nWave2 -format UDec
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 656.639118 -snap {("G1" 0)}
+wvSetCursor -win $_nWave2 658.865014
+wvZoom -win $_nWave2 463.728191 658.865014
+wvSetCursor -win $_nWave2 515.155434 -snap {("G2" 0)}
+wvZoom -win $_nWave2 513.363544 588.622925
+wvZoom -win $_nWave2 526.079546 557.662225
+wvZoom -win $_nWave2 529.414724 539.130240
+wvSetCursor -win $_nWave2 534.036062 -snap {("G2" 0)}
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectGroup -win $_nWave2 {G2}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSelectGroup -win $_nWave2 {G2}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetCursor -win $_nWave2 531.109809 -snap {("G1" 4)}
+wvZoomAll -win $_nWave2
+wvSelectGroup -win $_nWave2 {G2}
+wvCut -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSetPosition -win $_nWave2 {("G1" 6)}
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSetCursor -win $_nWave2 600.000000
+wvSetCursor -win $_nWave2 623.250689 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 640.315886 -snap {("G1" 0)}
+wvSetCursor -win $_nWave2 525.311295 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 539.408632 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 621.024793 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 686.317723 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 753.094582 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 747.158861 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 747.158861 -snap {("G1" 1)}
+wvSetRadix -win $_nWave2 -2Com
+wvSetRadix -win $_nWave2 -1Com
+wvSetRadix -win $_nWave2 -2Com
+verdiWindowResize -win Verdi_1 "0" "0" "1366" "692"
+verdiWindowBeWindow -win nWave_2
+verdiWindowResize -win Verdi_1 "0" "25" "1366" "692"
+wvResizeWindow -win $_nWave2 0 99 1362 614
+wvSetRadix -win $_nWave2 -Mag
+wvSetRadix -win $_nWave2 -2Com
+wvSetRadix -win $_nWave2 -1Com
+wvSetRadix -win $_nWave2 -2Com
+wvSelectSignal -win $_nWave2 {( "G1" 2 )} 
+wvSetRadix -win $_nWave2 -2Com
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSetRadix -win $_nWave2 -2Com
+wvSelectSignal -win $_nWave2 {( "G1" 5 )} 
+wvSetRadix -win $_nWave2 -2Com
+wvSetCursor -win $_nWave2 647.080275 -snap {("G1" 0)}
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 580.297182 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 425.045260 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 271.863365 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 226.322801 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 240.812980 -snap {("G1" 2)}
+wvSetCursor -win $_nWave2 284.973527 -snap {("G1" 2)}
+wvTpfCloseForm -win $_nWave2
+wvGetSignalClose -win $_nWave2
+wvCloseWindow -win $_nWave2
+debExit

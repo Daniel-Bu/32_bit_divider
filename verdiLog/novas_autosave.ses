@@ -1,0 +1,67 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_I-2014.03
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+[hb]
+postSimFile = /home/edauser/Documents/mycode/32_bit_divider/test.vcd.fsdb
+syncTime = 700
+viewport = 0 25 1366 692 450 422 221 1364
+activeNode = "tb"
+activeScope = "tb"
+activeFile = "testbench.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 1
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb"
+multipleSelection = 1 1 2 0 0
+sdfCheckUndef = FALSE
+[hb.sourceTab.1]
+scope = tb
+File = /home/edauser/Documents/mycode/32_bit_divider/testbench.v
+Line = 2
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/edauser/Documents/mycode/32_bit_divider
+design = DebussyLib
+hostCommand = hostCommand -f filelist
+[nMemoryManager]
+FsdbFile = /home/edauser/Documents/mycode/32_bit_divider/test.vcd.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 30 1366 584 168 91
+SessionFile = /home/edauser/Documents/mycode/32_bit_divider/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

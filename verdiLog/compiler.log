@@ -1,0 +1,11 @@
+*design* DebussyLib (btIdent Verdi3_I-2014.03)
+Command arguments:
+    +define+verilog
+    -f filelist
+        32_bit_divider.v
+        testbench.v
+
+Highest level modules:
+tb
+
+Total	0 error(s),   0 warning(s)

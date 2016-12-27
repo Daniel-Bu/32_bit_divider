@@ -1,0 +1,76 @@
+0 
+17
+-Mamsrun=
+-Masflags=--32
+-Mcc=g++
+-Mcfl= -pipe -m32 -O -I/tools/synopsys/vcs_vG-2012.09/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags= -melf_i386 -m32
+-Mobjects= /tools/synopsys/vcs_vG-2012.09/linux/lib/libvirsim.so /tools/synopsys/vcs_vG-2012.09/linux/lib/librterrorinf.so /tools/synopsys/vcs_vG-2012.09/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/tools/synopsys/vcs_vG-2012.09/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/tools/synopsys/vcs_vG-2012.09/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-f filelist
+-gen_obj
+/tools/synopsys/vcs_vG-2012.09/linux/bin/vcs1
+45
+sysc_uni_pwd=/home/edauser/Documents/mycode/32_bit_divider
+XDG_SESSION_COOKIE=2e570336c1eacf6f3b98730c00000015-1481639768.824103-89320878
+XAUTHORITY=/var/run/gdm/auth-for-edauser-NZFQ4f/database
+WINDOWPATH=1
+VMR_MODE_FLAG=32
+VENDOR=unknown
+VCS_HOME=/tools/synopsys/vcs_vG-2012.09
+VCS_DEPTH=0
+VCS_CC=g++
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+USERNAME=edauser
+UNAME=/bin/uname
+TOOL_HOME=/tools/synopsys/vcs_vG-2012.09/linux
+SSH_AUTH_SOCK=/tmp/keyring-X6sz9S/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=27000@localhost:/tools/synopsys/vcs_vG-2012.09/flexlm//license.dat
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2680,unix/unix:/tmp/.ICE-unix/2680
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+OSTYPE=linux
+ORBIT_SOCKETDIR=/tmp/orbit-edauser
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HOSTTYPE=x86_64-linux
+HOSTNAME=localhost.localdomain
+HOST=localhost.localdomain
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/edauser/.gtkrc-1.2-gnome2
+GROUP=edauser
+GNOME_KEYRING_SOCKET=/tmp/keyring-X6sz9S/socket
+GNOME_KEYRING_PID=2647
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+DESKTOP_SESSION=gnome
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-EaiZqRPUEC,guid=ba403c689c8fb3bcc842c31f0000002f
+CVS_RSH=ssh
+COLORTERM=gnome-terminal
+0
+3
+1481639882 testbench.v
+1481639848 32_bit_divider.v
+1481587163 filelist
+4
+0 
+1345792714 /tools/synopsys/vcs_vG-2012.09/linux/lib/libvirsim.so
+1345792230 /tools/synopsys/vcs_vG-2012.09/linux/lib/librterrorinf.so
+1345792158 /tools/synopsys/vcs_vG-2012.09/linux/lib/libsnpsmalloc.so
+1481640009 simv.daidir
